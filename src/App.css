@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Wistia-logo {
+  animation: Wistia-logo-spin infinite 10s linear;
+  height: 60px;
+  padding-bottom: 10px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.wistia-embed-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes Wistia-logo-spin {
+  from { transform: rotate3d(100, -100, 100, 0deg); }
+  to { transform: rotate3d(-100, 100, -100, 360deg); }
+}
